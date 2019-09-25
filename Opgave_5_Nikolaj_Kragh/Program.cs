@@ -6,7 +6,14 @@ namespace Opgave_5_Nikolaj_Kragh
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Title = "Opgave 5 - TCP Server";
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.White;
+
+            ServerWorker server = new ServerWorker();
+            server.Start();
+
+            Console.ReadLine();
         }
     }
 }

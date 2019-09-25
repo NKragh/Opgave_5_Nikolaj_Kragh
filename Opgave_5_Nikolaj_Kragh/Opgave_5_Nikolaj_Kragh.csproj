@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Opgave_1_Nikolaj_Kragh">
+      <HintPath>..\..\Opgave_1_Nikolaj_Kragh\Opgave_1_Nikolaj_Kragh\bin\Debug\netcoreapp2.1\Opgave_1_Nikolaj_Kragh.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
